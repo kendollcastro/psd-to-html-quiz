@@ -1,32 +1,20 @@
-
 /*Quienes Somos*/
-
-/*Logo*/
-#quienes-somos{
-    background-image: url(../img/bg.jpg);
-    height: 560px;
-  }
+#quienes-somos {
+    background-image: url(/img/bg.jpg);
+    height: 500px; }
   
-  #icon-quienes-somos img{
+  #icon-quienes-somos img {
     width: 205px;
     height: 65px;
     float: left;
     padding-top: 265px;
-    padding-left: 280px;
-  }
+    padding-left: 280px; 
+}
   
-  /*Parrafos*/
-  .text-qs{
-    width: 550px;
-    height: 315px;
-    padding-top: 145px;
-    padding-right: 140px;
+.text-qs{
+    padding-top: 150px;
+    padding-right: 100px;
     float: right;
-  }
-  .text-qs h2{
-    font-size: 40px;
+    width: 500px;
     color: white;
-  }
-  .text-qs p{
-    color: white;
-  }
+}

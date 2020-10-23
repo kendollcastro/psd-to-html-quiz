@@ -10,7 +10,9 @@
 
 /*Header*/
 #header {
-  height: 108px;
+  max-width: 100%;
+  width: 100%;
+  height: 7.5%;
   background-color: #030215; }
 
 /*Logo*/
@@ -42,13 +44,17 @@
 .nav-list li + li {
   margin-left: 30px; }
 
+#slider-img {
+  max-width: 100%;
+  width: 100%; }
+
 /*Paquetes*/
 #packets h2 {
   font-size: 30px; }
 
 #packets {
   text-align: center;
-  padding-left: 84px; }
+  padding-left: 5.8%; }
 
 .info-img {
   display: none; }
@@ -61,10 +67,9 @@
   padding-bottom: 50px; }
 
 /*Quienes Somos*/
-/*Logo*/
 #quienes-somos {
-  background-image: url(../img/bg.jpg);
-  height: 560px; }
+  background-image: url(/img/bg.jpg);
+  height: 500px; }
 
 #icon-quienes-somos img {
   width: 205px;
@@ -73,24 +78,16 @@
   padding-top: 265px;
   padding-left: 280px; }
 
-/*Parrafos*/
 .text-qs {
-  width: 550px;
-  height: 315px;
-  padding-top: 145px;
-  padding-right: 140px;
-  float: right; }
-
-.text-qs h2 {
-  font-size: 40px;
-  color: white; }
-
-.text-qs p {
+  padding-top: 150px;
+  padding-right: 100px;
+  float: right;
+  width: 500px;
   color: white; }
 
 /*Footer*/
 #footer {
-  height: 235px;
+  height: 16%;
   background-color: #171717; }
 
 #nav-footer {
