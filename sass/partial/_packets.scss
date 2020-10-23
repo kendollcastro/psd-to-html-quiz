@@ -1,0 +1,23 @@
+/*Paquetes*/
+
+#packets h2{
+    font-size: 30px;
+  }
+  
+  #packets{
+    text-align: center;
+    padding-left: 84px;
+  }
+  
+  .info-img{
+    display: none;
+  }
+  
+  .box-img{
+    float: left;
+  }
+  
+  .box-img + .box-img{
+    padding-left: 40px;
+    padding-bottom: 50px;
+  }

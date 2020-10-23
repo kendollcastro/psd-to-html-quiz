@@ -1,0 +1,41 @@
+
+
+/*Footer*/
+
+#footer{
+    height: 235px;
+    background-color: #171717;
+  }
+  
+  #nav-footer{
+    margin-right: 50px;
+    padding-top: 30px;
+    padding-left: 500px;
+  }
+  
+  .foot-list{
+    list-style: none;
+  }
+  .foot-list a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .foot-list li{
+    float: left;
+  }
+  
+  .foot-list li + li{
+    margin-left: 30px; 
+  }
+  
+  #icono-fb{
+    padding-top: 40px;
+    text-align: center;
+  }
+  
+  #copy-rights{
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+  }
