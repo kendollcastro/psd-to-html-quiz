@@ -24,5 +24,68 @@
   height: 30px;
   padding-top: 39px;
   padding-left: 104px;
+}
 
+#logo-header{
+  float: left;
+}
+
+/*List-Menu*/
+
+#nav-menu{
+  float: right;
+  margin-right: 50px;
+  padding-top: 30px;
+}
+
+.nav-list{
+  list-style: none;
+}
+.nav-list a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list li{
+  float: left;
+}
+
+.nav-list li + li{
+  margin-left: 30px; 
+}
+
+
+/*Paquetes*/
+
+#packets{
+  border: 1px solid black;
+  text-align: center;
+  padding-left: 84px;
+}
+
+.info-img{
+  display: none;
+}
+
+.box-img{
+  float: left;
+}
+
+.box-img + .box-img{
+  padding-left: 40px;
+  padding-bottom: 50px;
+}
+
+
+/*Quienes Somos*/
+
+#quienes-somos{
+  background-image: url(../img/bg.jpg);
+  border: 1px solid black;
+  height: 560px;
+}
+
+#icon-quienes-somos img{
+  width: 205px;
+  height: 65px;
 }
