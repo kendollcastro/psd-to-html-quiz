@@ -79,6 +79,7 @@
 
 /*Quienes Somos*/
 
+/*Logo*/
 #quienes-somos{
   background-image: url(../img/bg.jpg);
   border: 1px solid black;
@@ -88,4 +89,26 @@
 #icon-quienes-somos img{
   width: 205px;
   height: 65px;
+  float: left;
+  padding-top: 265px;
+  padding-left: 280px;
 }
+
+/*Parrafos*/
+.text-qs{
+  width: 550px;
+  height: 315px;
+  padding-top: 145px;
+  padding-right: 140px;
+  float: right;
+}
+.text-qs h2{
+  font-size: 40px;
+  color: white;
+}
+.text-qs p{
+  color: white;
+}
+
+
+/*Footer*/
